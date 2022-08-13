@@ -1,7 +1,7 @@
 #KEY PAIR
 resource "aws_key_pair" "mtc_auth" {
-  key_name   = "mtckey"
-  public_key = file("~/.ssh/mtckey.pub") #(Create the Config File)
+  key_name   = ""
+  public_key = file("") #(Create the Config File)
 }
 
 #EC2 INSTANCE (NEED TO UPDATE THE USERDATA)
