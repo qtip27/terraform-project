@@ -1,7 +1,7 @@
 #Resources
 #VPC
 resource "aws_vpc" "mtc_vpc" {
-  cidr_block           = "10.45.0.0/16"
+  cidr_block           = ""
   enable_dns_hostnames = true
   enable_dns_support   = true
 
@@ -14,7 +14,7 @@ resource "aws_vpc" "mtc_vpc" {
 #Public Subnet #1
 resource "aws_subnet" "mtc_public_subnet" {
   vpc_id                  = aws_vpc.mtc_vpc.id #Referencing the VPC above with the ID of that VPC
-  cidr_block              = "10.45.1.0/24"
+  cidr_block              = ""
   map_public_ip_on_launch = true
   availability_zone       = "us-east-2a"
 
@@ -27,7 +27,7 @@ resource "aws_subnet" "mtc_public_subnet" {
 #Private Subnet #1
 resource "aws_subnet" "mtc_private_subnet" {
   vpc_id                  = aws_vpc.mtc_vpc.id #Referencing the VPC above with the ID of that VPC
-  cidr_block              = "10.45.2.0/24"
+  cidr_block              = ""
   map_public_ip_on_launch = false
   availability_zone       = "us-east-2a"
 
@@ -39,7 +39,7 @@ resource "aws_subnet" "mtc_private_subnet" {
 #Public Subnet #2
 resource "aws_subnet" "mtc_public_subnet_2" {
   vpc_id                  = aws_vpc.mtc_vpc.id #Referencing the VPC above with the ID of that VPC
-  cidr_block              = "10.45.3.0/24"
+  cidr_block              = ""
   map_public_ip_on_launch = true
   availability_zone       = "us-east-2a"
 
@@ -53,7 +53,7 @@ resource "aws_subnet" "mtc_public_subnet_2" {
 #Private Subnet #2
 resource "aws_subnet" "mtc_private_subnet_2" {
   vpc_id                  = aws_vpc.mtc_vpc.id #Referencing the VPC above with the ID of that VPC
-  cidr_block              = "10.45.5.0/24"
+  cidr_block              = ""
   map_public_ip_on_launch = false
   availability_zone       = "us-east-2a"
 
