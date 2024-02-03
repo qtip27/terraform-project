@@ -8,6 +8,6 @@ An additional layer of learning was incorporated by introducing Ansible into the
 
 Throughout the development process, the creator consulted Terraform documentation for guidance and best practices, ensuring a comprehensive understanding of the tools being used.
 
-The project serves as a personal milestone, allowing the creator to merge theoretical knowledge with practical application. The combination of PowerShell, Terraform, and Ansible in a real-world scenario provided a holistic learning experience. The creator expresses hope that others may find value in exploring the codebase and encourages anyone interested to delve into the realms of IaC, Azure, Terraform, and Ansible.
+The project serves as a personal milestone, allowing the creator to merge theoretical knowledge with practical application. The combination of Terraform and Ansible in a real-world scenario provided a holistic learning experience. The creator expresses hope that others may find value in exploring the codebase and encourages anyone interested to delve into the realms of IaC, Azure, Terraform, and Ansible.
 
 In summary, this project stands as a testament to the creator's journey in acquiring skills related to IaC, Azure, and automation, showcasing a commitment to continuous learning and the joy of applying newfound knowledge.
