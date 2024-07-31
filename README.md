@@ -2,7 +2,7 @@ Project Description: Infrastructure as Code (IaC) Learning Project
 
 This project originated from a personal desire to delve into the world of Infrastructure as Code (IaC). The journey began with a foundational course on YouTube from freecodeCamp.org, laying the groundwork for understanding and implementing IaC concepts. The initial learning was extended beyond the course content, as the project creator aimed to gain practical experience in writing code for infrastructure provisioning and management.
 
-The project primarily focused on Microsoft Azure, utilizing PowerShell and Terraform for IaC implementation. To enhance the security aspect, the project involved setting up a firewall, for which the creator researched and found a valuable repository by Mr. Nicola Arnoldi (ricoaws). This repository contributed to the firewall code, and the creator went on to comprehend its setup and define specific rules, enriching the overall project.
+The project primarily focused on Amazon Web Service and Terraform for IaC implementation. To enhance the security aspect, the project involved setting up a firewall, for which the creator researched and found a valuable repository by Mr. Nicola Arnoldi (ricoaws). This repository contributed to the firewall code, and the creator went on to comprehend its setup and define specific rules, enriching the overall project.
 
 An additional layer of learning was incorporated by introducing Ansible into the project. This decision aimed to not only solidify skills in Terraform but also to gain proficiency in Ansible, thus broadening the creator's skill set.
 
